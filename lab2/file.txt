@@ -1,0 +1,3 @@
+ My name is Fatima 
+ I am learning file handling in Python 
+ a + b = result_ab
