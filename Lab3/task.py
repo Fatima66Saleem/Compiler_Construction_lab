@@ -64,6 +64,16 @@ def t_comment(t):
     r'\#.*'
     pass
 
+def t_newline(t):
+    r'\n+'
+    t.lexer.lineno += len(t.value)
+
+def t_error(t):
+    print(f"Illegal character '{t.value[0]}'"
+          f"at Line number: {t.lineno}")
+    
+    t.lexer.skip(1)
+
 lexer = lex.lex()
 
 # Test it out
