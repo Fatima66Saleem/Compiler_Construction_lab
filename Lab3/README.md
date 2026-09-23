@@ -5,7 +5,7 @@ The lexer reads a line of source code and prints the tokens it recognizes.
 
 ## Files
 
-### `task1.py`
+### `task.py`
 
 Defines a PLY lexer that recognizes:
 
@@ -23,7 +23,7 @@ decimal tokens are converted to `float` values.
 Run the lexer from the repository root:
 
 ```powershell
-python Lab3/task1.py
+python Lab3/task.py
 ```
 
 Example input:

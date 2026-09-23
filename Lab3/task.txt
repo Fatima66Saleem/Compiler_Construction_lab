@@ -1,0 +1,3 @@
+task1: install flex and run test code
+
+task2: lexical analyzer with ply library =>GUI(tkinter) user input data and resultant show on frontend
