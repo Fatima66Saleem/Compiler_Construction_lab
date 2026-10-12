@@ -1,0 +1,1732 @@
+[
+  {
+    "timestamp": "2026-09-30 10:06:13",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-30 10:00:20",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-30 09:59:40",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-30 09:58:15",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:38:42",
+    "code": "int i = 0;\nwhile (i < 5) {\n    i = i + 1;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "i",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "0",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 10
+      },
+      {
+        "type": "WHILE",
+        "value": "while",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "ID",
+        "value": "i",
+        "line": 2,
+        "column": 8
+      },
+      {
+        "type": "LT",
+        "value": "<",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 13
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 15
+      },
+      {
+        "type": "ID",
+        "value": "i",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 3,
+        "column": 7
+      },
+      {
+        "type": "ID",
+        "value": "i",
+        "line": 3,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 3,
+        "column": 11
+      },
+      {
+        "type": "Number",
+        "value": "1",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 14
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:37:04",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n} ",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:36:54",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n} @",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": [
+      "Illegal character '@' at line 4"
+    ]
+  },
+  {
+    "timestamp": "2026-09-27 13:36:43",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:36:36",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:25:13",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 13:21:41",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-27 08:41:51",
+    "code": "my name is fatima 6b @ \n",
+    "tokens": [
+      {
+        "type": "ID",
+        "value": "my",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "name",
+        "line": 1,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "is",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "ID",
+        "value": "fatima",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "6",
+        "line": 1,
+        "column": 19
+      },
+      {
+        "type": "ID",
+        "value": "b",
+        "line": 1,
+        "column": 20
+      }
+    ],
+    "errors": [
+      "Illegal character '@' at line 1"
+    ]
+  },
+  {
+    "timestamp": "2026-09-27 08:41:18",
+    "code": "my name is fatima 6b @ \n",
+    "tokens": [
+      {
+        "type": "ID",
+        "value": "my",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "name",
+        "line": 1,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "is",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "ID",
+        "value": "fatima",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "6",
+        "line": 1,
+        "column": 19
+      },
+      {
+        "type": "ID",
+        "value": "b",
+        "line": 1,
+        "column": 20
+      }
+    ],
+    "errors": [
+      "Illegal character '@' at line 1"
+    ]
+  },
+  {
+    "timestamp": "2026-09-26 15:41:32",
+    "code": "123 234 2.45 , ( - je8  \\ jw $ & ^ ",
+    "tokens": [
+      {
+        "type": "Number",
+        "value": "123",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "Number",
+        "value": "234",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "Number",
+        "value": "2.45",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "COMMA",
+        "value": ",",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 1,
+        "column": 16
+      },
+      {
+        "type": "MINUS",
+        "value": "-",
+        "line": 1,
+        "column": 18
+      },
+      {
+        "type": "ID",
+        "value": "je8",
+        "line": 1,
+        "column": 20
+      },
+      {
+        "type": "ID",
+        "value": "jw",
+        "line": 1,
+        "column": 27
+      }
+    ],
+    "errors": [
+      "Illegal character '\\' at line 1",
+      "Illegal character '$' at line 1",
+      "Illegal character '&' at line 1",
+      "Illegal character '^' at line 1"
+    ]
+  },
+  {
+    "timestamp": "2026-09-26 15:36:45",
+    "code": "return my name ",
+    "tokens": [
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "my",
+        "line": 1,
+        "column": 8
+      },
+      {
+        "type": "ID",
+        "value": "name",
+        "line": 1,
+        "column": 11
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-26 15:07:31",
+    "code": "jjkms sss wkq qk1   ",
+    "tokens": [
+      {
+        "type": "ID",
+        "value": "jjkms",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "sss",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "ID",
+        "value": "wkq",
+        "line": 1,
+        "column": 11
+      },
+      {
+        "type": "ID",
+        "value": "qk1",
+        "line": 1,
+        "column": 15
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-26 15:04:05",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1,
+        "column": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1,
+        "column": 5
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1,
+        "column": 9
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1,
+        "column": 12
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1,
+        "column": 14
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1,
+        "column": 15
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2,
+        "column": 1
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2,
+        "column": 4
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2,
+        "column": 5
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2,
+        "column": 7
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2,
+        "column": 10
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2,
+        "column": 12
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2,
+        "column": 14
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3,
+        "column": 5
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3,
+        "column": 12
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3,
+        "column": 13
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4,
+        "column": 1
+      }
+    ],
+    "errors": []
+  },
+  {
+    "timestamp": "2026-09-26 14:53:20",
+    "code": "my name is fatima 6b @ \n",
+    "tokens": [
+      {
+        "type": "ID",
+        "value": "my",
+        "line": 4
+      },
+      {
+        "type": "ID",
+        "value": "name",
+        "line": 4
+      },
+      {
+        "type": "ID",
+        "value": "is",
+        "line": 4
+      },
+      {
+        "type": "ID",
+        "value": "fatima",
+        "line": 4
+      },
+      {
+        "type": "Number",
+        "value": "6",
+        "line": 4
+      },
+      {
+        "type": "ID",
+        "value": "b",
+        "line": 4
+      }
+    ],
+    "errors": [
+      "Illegal character '@' at Line number: 4"
+    ]
+  },
+  {
+    "timestamp": "2026-09-26 14:52:40",
+    "code": "int x = 10 + 5;\nif (x >= 10) {\n    return x;\n}",
+    "tokens": [
+      {
+        "type": "INT",
+        "value": "int",
+        "line": 1
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 1
+      },
+      {
+        "type": "EQUALS",
+        "value": "=",
+        "line": 1
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 1
+      },
+      {
+        "type": "PLUS",
+        "value": "+",
+        "line": 1
+      },
+      {
+        "type": "Number",
+        "value": "5",
+        "line": 1
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 1
+      },
+      {
+        "type": "IF",
+        "value": "if",
+        "line": 2
+      },
+      {
+        "type": "LPAREN",
+        "value": "(",
+        "line": 2
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 2
+      },
+      {
+        "type": "GE",
+        "value": ">=",
+        "line": 2
+      },
+      {
+        "type": "Number",
+        "value": "10",
+        "line": 2
+      },
+      {
+        "type": "RPAREN",
+        "value": ")",
+        "line": 2
+      },
+      {
+        "type": "LC",
+        "value": "{",
+        "line": 2
+      },
+      {
+        "type": "RETURN",
+        "value": "return",
+        "line": 3
+      },
+      {
+        "type": "ID",
+        "value": "x",
+        "line": 3
+      },
+      {
+        "type": "SEMICOLON",
+        "value": ";",
+        "line": 3
+      },
+      {
+        "type": "RC",
+        "value": "}",
+        "line": 4
+      }
+    ],
+    "errors": []
+  }
+]

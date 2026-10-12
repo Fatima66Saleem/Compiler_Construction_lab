@@ -1,0 +1,92 @@
+[
+  {
+    "type": "INT",
+    "value": "int",
+    "line": 1
+  },
+  {
+    "type": "ID",
+    "value": "x",
+    "line": 1
+  },
+  {
+    "type": "EQUALS",
+    "value": "=",
+    "line": 1
+  },
+  {
+    "type": "Number",
+    "value": "10",
+    "line": 1
+  },
+  {
+    "type": "PLUS",
+    "value": "+",
+    "line": 1
+  },
+  {
+    "type": "Number",
+    "value": "5",
+    "line": 1
+  },
+  {
+    "type": "SEMICOLON",
+    "value": ";",
+    "line": 1
+  },
+  {
+    "type": "IF",
+    "value": "if",
+    "line": 2
+  },
+  {
+    "type": "LPAREN",
+    "value": "(",
+    "line": 2
+  },
+  {
+    "type": "ID",
+    "value": "x",
+    "line": 2
+  },
+  {
+    "type": "GE",
+    "value": ">=",
+    "line": 2
+  },
+  {
+    "type": "Number",
+    "value": "10",
+    "line": 2
+  },
+  {
+    "type": "RPAREN",
+    "value": ")",
+    "line": 2
+  },
+  {
+    "type": "LC",
+    "value": "{",
+    "line": 2
+  },
+  {
+    "type": "RETURN",
+    "value": "return",
+    "line": 3
+  },
+  {
+    "type": "ID",
+    "value": "x",
+    "line": 3
+  },
+  {
+    "type": "SEMICOLON",
+    "value": ";",
+    "line": 3
+  },
+  {
+    "type": "RC",
+    "value": "}",
+    "line": 4
+  }
+]
